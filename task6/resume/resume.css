@@ -1,0 +1,58 @@
+h2{
+    text-align:center;
+}
+table,td,th,tr{
+    border:2px solid black ;
+    height: 50px;
+    width:1500px;
+    border-collapse:collapse;
+}
+.headings{
+    background-color:rgb(238, 226, 228);
+    text-align: center;
+    font-weight: bold;
+
+}
+.table_tr{
+     text-align:center;
+     color:;
+     text-decoration-line:underline;
+     background-color:;
+}
+.table{
+    background-color:;
+}
+.tr_table{
+    background-color:rgb(198, 177, 204);
+    color:rgb(17, 51, 40);
+}
+.inner_tr{
+    background-color:;
+}
+
+.heading2{
+    background-color:;
+}
+.skills{
+    color:;
+}
+.heading3{
+     color:pink;
+     background-color:;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

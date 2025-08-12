@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+            grid-template-rows: auto auto;
+            height: 90vh;
+            background-color: black;
+            gap: 10px;
+            padding: 10px;
+        }
+        .it1
+           {
+            background-color: goldenrod;
+            /* grid-row: 1/3; */
+        }
+        .it2
+           {
+            background-color:greenyellow;
+             
+           }
+           
+        .it3
+           {
+            background-color: grey
+        
+           }
+        .it4
+           {
+            background-color: blue;
+            
+           }
+        .it5{
+            background-color: yellow;
+           }
+           .it6{
+            background-color: burlywood;
+           }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="it1">item1</div>
+    <div class="it2">item2</div>
+    <div class="it3">item3</div>
+    <div class="it4">item4</div>
+    <div class="it5">item5</div>
+    <div class="it6">item6</div>
+    </div>
+</body>
+</html>

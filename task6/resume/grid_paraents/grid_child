@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about the flex</title>
+<style>
+     .parent1 > div {
+        background-color:rgb(205, 173, 179);
+        color:red;
+        height:100px;
+        width:500px;
+        display:flex;
+        justify-content:row;
+     }
+     .parent1{
+        display:flex;
+        justify-content:row;
+        /* flex-direction: row;
+        flex-wrap:wrap; */
+     }
+     div{
+        background-color:black;
+     }
+     .div1{
+        order:1;
+        flex-grow:2;
+        flex-shrink:2;
+        flex-basis:400px ;
+        
+     }
+</style>
+</head>
+<body>
+    <div class="parent1">
+        <div class="div1">items1</div>
+        <div>items2</div>
+        <div>items3</div>
+        <div>items4</div>
+        <div>items5</div>
+    </div>
+</body>
+</html>

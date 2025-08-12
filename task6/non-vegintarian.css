@@ -1,0 +1,40 @@
+#non{
+    background-color:rgb(180, 150, 209);
+}
+#non2{
+    color:brown;
+    text-align:center;
+    font-style: italic;
+}
+#non2:hover{
+    color:darkmagenta;
+    font-size: large;
+ }
+#non3{
+    color:brown;
+    text-align:center;
+    font-style: italic;
+}
+#non3:hover{
+    color:darkmagenta;
+     font-size: large;
+ } 
+#non4{
+    color:brown;
+    text-align:center;
+    font-style: italic;
+}
+#non4:hover{
+    color:darkmagenta;
+     font-size: large;
+ }
+#hd1{
+    color:rgb(53, 31, 35);
+    text-align:center;
+    font-style: italic;
+    font-size:20px;
+}
+#hd1:hover{
+    color:rgb(130, 109, 175);
+    font-size: large;
+ }
